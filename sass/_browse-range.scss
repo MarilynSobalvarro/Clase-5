@@ -5,8 +5,9 @@
   margin-bottom: 88px;
 }
 
-.browse-range-gallery img + img {
-  margin-left: 2%;
+.browse-range-gallery div + div {
+  // 20 / 1200 * 100 = 1.6
+  margin-left: 1.5%;
 }
 
 .browse-range-gallery > div{
