@@ -31,12 +31,12 @@ p.small {
 
 /* HELPER */
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .container-small {
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -128,13 +128,21 @@ p.small {
 #inspiration-header {
   text-align: center;
 }
+#inspiration-header img {
+  float: left;
+  width: 33.33%;
+}
 
 .inspiration-gallery {
   text-align: center;
 }
+.inspiration-gallery img {
+  float: left;
+  width: 33.33%;
+}
 
 .inspiration-gallery img + img {
-  margin-left: 40px;
+  margin-left: 2%;
 }
 
 #inspiration-header {
@@ -149,28 +157,34 @@ p.small {
 }
 
 .beauty-space-content {
-  width: 540px;
+  width: 45%;
   float: left;
   margin-top: 265px;
-  margin-right: 60px;
+  margin-right: 5%;
 }
 .beauty-space-content p {
   margin-bottom: 35px;
 }
 
 .beauty-space-img {
-  width: 600px;
+  width: 50%;
   float: right;
 }
 
 /* BROWSE RANGE */
 #browse-range-header {
   text-align: center;
+}
+#browse-range-header img {
+  float: left;
+  width: 33.33%;
+}
+#browse-range-header {
   margin-bottom: 88px;
 }
 
 .browse-range-gallery img + img {
-  margin-left: 20px;
+  margin-left: 2%;
 }
 
 .browse-range-gallery > div {
@@ -191,6 +205,12 @@ p.small {
 
 #works-header {
   text-align: center;
+}
+#works-header img {
+  float: left;
+  width: 33.33%;
+}
+#works-header {
   margin-bottom: 88px;
 }
 

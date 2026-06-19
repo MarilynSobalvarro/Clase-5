@@ -1,0 +1,16 @@
+/* INPIRATION */
+#inspiration-header {
+  @include section-header;
+}
+
+.inspiration-gallery {
+  @include section-header;
+}
+
+.inspiration-gallery img + img {
+  margin-left: 2%;
+}
+
+#inspiration-header {
+  margin-bottom: 88px;
+}
