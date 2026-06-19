@@ -252,7 +252,7 @@ form {
 input[type=email] {
   height: 59px;
   border: 1px solid #011C42;
-  width: 320px;
+  width: 64%;
   padding-left: 10px;
   float: left;
 }
@@ -260,7 +260,7 @@ input[type=email] {
 input[type=submit] {
   height: 63px;
   border: none;
-  width: 154px;
+  width: 30.8%;
   float: left;
   text-transform: capitalize;
 }
