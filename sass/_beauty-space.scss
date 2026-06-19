@@ -7,9 +7,9 @@
 }
 
 .beauty-space-content {
+  // parte / total(container) x 100
   width: 45%;
   float: left;
-
   margin-top: 265px;
   margin-right: 5%;
 
@@ -21,4 +21,8 @@
 .beauty-space-img {
   width: 50%;
   float: right;
+  
+  img {
+    width: 100%;
+  }
 }

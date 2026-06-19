@@ -130,7 +130,7 @@ p.small {
 }
 #inspiration-header img {
   float: left;
-  width: 33.33%;
+  width: 32%;
 }
 
 .inspiration-gallery {
@@ -138,7 +138,7 @@ p.small {
 }
 .inspiration-gallery img {
   float: left;
-  width: 33.33%;
+  width: 32%;
 }
 
 .inspiration-gallery img + img {
@@ -170,6 +170,9 @@ p.small {
   width: 50%;
   float: right;
 }
+.beauty-space-img img {
+  width: 100%;
+}
 
 /* BROWSE RANGE */
 #browse-range-header {
@@ -177,7 +180,7 @@ p.small {
 }
 #browse-range-header img {
   float: left;
-  width: 33.33%;
+  width: 32%;
 }
 #browse-range-header {
   margin-bottom: 88px;
@@ -208,7 +211,7 @@ p.small {
 }
 #works-header img {
   float: left;
-  width: 33.33%;
+  width: 32%;
 }
 #works-header {
   margin-bottom: 88px;
